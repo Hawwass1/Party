@@ -19,8 +19,21 @@ function PrintScore(totalScore){
 }
 var tot= score(5,2,12)
 PrintScore(tot)*/
+
 function TotalScore(CA1,CA2,exam){
-    return CA1+CA2+exam
+    if (CA1 <=20){
+        return CA1+CA2+exam
+    }
+    if (CA2 <=20){
+        return CA1+CA2+exam
+    }
+    if (exam<=60){
+        return CA1+CA2+exam
+    }
+    else{
+        console.log("Your input is invalid")
+    }
+
 }
 
 function Grade(FinalGrade){
@@ -43,5 +56,5 @@ function Grade(FinalGrade){
         console.log("Your score is Invalid")
     } 
 }
-var Final= TotalScore(5,10,40)
+var Final= TotalScore(25,10,90)
 Grade(Final)
