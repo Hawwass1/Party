@@ -43,7 +43,7 @@ function Grade(FinalGrade){
     else if (FinalGrade >=40 && FinalGrade<50){
         console.log("Your grade is D")
         }
-    else if (FinalGrade >=38 && FinalGrade<40){
+    else if (FinalGrade >=43 && FinalGrade<45){
             console.log("Your grade is D")
             }
     else if (FinalGrade >=0 && FinalGrade<40){
@@ -54,11 +54,12 @@ function Grade(FinalGrade){
     } 
 }
  function TotalScore(CA1,CA2,exam){
-    if (CA1,CA2 >=0 && CA1,CA2<=20){
-        return CA1+CA2+exam
-    }
-    else if (exam >=0 && exam <=100){
-        return CA1+CA2+exam
+    if (CA1 >=0 && CA1 <=20){
+        console.log(CA1)   
+    if (CA2 >=0 && CA2 <=20)
+        console.log(CA2)
+        if(exam >=0 && exam <=60)
+        console.log(CA1+CA2+exam)
     }
     else {
         console.log("Your score is invalid")
@@ -66,4 +67,5 @@ function Grade(FinalGrade){
 
 }
 var Final= TotalScore(20,20,50)
-Grade(Final)
+Grade(Final)*/
+
