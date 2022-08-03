@@ -67,5 +67,5 @@ function Grade(FinalGrade){
 
 }
 var Final= TotalScore(20,20,50)
-Grade(Final)*/
+Grade(Final)
 
