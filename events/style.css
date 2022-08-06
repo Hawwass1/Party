@@ -1,0 +1,18 @@
+#btn1{
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+    background-color:maroon;
+}
+#btn2{
+    width: 200px;
+    height: 200px;
+    margin: 20px;  
+    background-color: blue;
+}
+#btn3{
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+    background-color:yellow;
+}
