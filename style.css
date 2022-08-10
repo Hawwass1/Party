@@ -1,21 +1,23 @@
 body{
+    margin: 0px;
+    padding: 0px;
     background-color: black;
 }
-#btn1{
-    width: 200px;
-    height: 200px;
-    margin: 20px;
-    background-color:maroon;
+#background{
+    width:100%;
+    height: 100vh;
+    background-color:black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
-#btn2{
+button{
     width: 200px;
-    height: 200px;
-    margin: 20px;  
-    background-color: blue;
+    height: 100px;
+    font-weight: bolder;
+    font-size: larger;
+    font-family: lucida calligraphy;
 }
-#btn3{
-    width: 200px;
-    height: 200px;
-    margin: 20px;
-    background-color:yellow;
+button:hover{
+    background-color: grey;
 }
